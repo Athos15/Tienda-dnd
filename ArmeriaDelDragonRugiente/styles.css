@@ -1,3 +1,4 @@
+/* Estilos para el cuerpo y el fondo */
 body {
     background-image: url('images/tiendita.png');
     background-size: 100%;
@@ -6,6 +7,7 @@ body {
     padding: 20px;
 }
 
+/* Estilos para el encabezado */
 header {
     background-color: #333;
     color: #fff;
@@ -13,10 +15,12 @@ header {
     padding: 1rem 0;
 }
 
+/* Estilos para la barra de navegación */
 nav {
     background-color: #444;
 }
 
+/* Estilos para la lista de navegación */
 nav ul {
     list-style: none;
     padding: 0;
@@ -40,14 +44,17 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+/* Estilos para el contenido principal */
 main {
     padding: 1rem;
 }
 
+/* Estilos para las secciones */
 section {
     margin-bottom: 2rem;
 }
 
+/* Estilos para el texto legible */
 .texto-legible {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -63,6 +70,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
+/* Estilos para el pie de página */
 footer {
     background-color: #333;
     color: #fff;
@@ -73,33 +81,48 @@ footer {
     bottom: 0;
 }
 
+/* Estilos para la tabla desplazable */
 .scrollable-table {
     overflow: auto;
     max-height: 400px;
 }
 
+/* Comentario separador para las secciones */
+/* Sección de armas */
 #armas,
 #armaduras,
 #accesorios,
 #articulos-de-consumo,
-#herramientas,
-#testimonios,
-#galeria,
-#sobre-nosotros,
-#contacto {
+#herramientas {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
 }
 
-#testimonios,
-#galeria,
-#sobre-nosotros,
-#contacto,
-#inicio {
+/* Sección de testimonios */
+#testimonios {
     background-color: #f2f2f2;
     padding: 20px;
 }
 
+/* Sección de galería */
+#galeria {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Sección de nosotros */
+#sobre-nosotros {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Sección de contacto */
+#contacto {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Estilos adicionales para la tabla de escudos */
 #escudos table {
     background-color: #fff;
     border-collapse: collapse;
