@@ -1,0 +1,145 @@
+body {
+    background-image: url('images/tiendita.png'); /* Ruta de la imagen de fondo */
+    background-size: 100%; /* Reducir el tamaño de la imagen al 100% */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */}
+   }
+   body {
+    padding: 20px; /* Ajusta el valor según sea necesario */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    header,
+footer {
+    padding: 20px; /* Ajusta el valor según sea necesario */
+}
+header,
+footer {
+    margin-top: 50px; /* Ajusta el valor según sea necesario */
+}
+
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+section:nth-child(3) {
+    margin-bottom: 50px; /* Ajusta el valor según sea necesario */
+}
+
+section:nth-child(4) {
+    margin-top: 50px; /* Ajusta el valor según sea necesario */
+}
+section:nth-child(3),
+section:nth-child(4) {
+    padding: 20px 0; /* Ajusta el valor vertical según sea necesario */
+}
+section:nth-child(3),
+section:nth-child(4) {
+    position: relative; /* Establece la posición relativa */
+    z-index: 10; /* Ajusta el índice z para que esté por encima de la imagen de fondo */
+}
+.texto-legible {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 20px auto; /* Margen exterior */
+    max-width: 800px; /* Ancho máximo de la tabla */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.scrollable-table {
+    overflow: auto;
+    max-height: 400px; /* Ajusta la altura máxima según lo necesites */
+}
+/* Estilos para el fondo semitransparente del texto */
+#armas,
+#armaduras,
+#accesorios,
+#articulos-de-consumo,
+#herramientas,
+#testimonios,
+#galeria,
+#sobre-nosotros,
+#contacto {
+    background-color: rgba(255, 255, 255, 0.7); /* Blanco semitransparente */
+    padding: 20px; /* Espacio interno para el contenido */
+}
+/* Estilos para las secciones donde no hay imagen de fondo que cubra */
+#testimonios,
+#galeria,
+#sobre-nosotros,
+#contacto,
+#inicio, {
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+    padding: 20px; /* Espacio interno para el contenido */
+}
+#escudos table {
+  background-color: #fff; /* Color de fondo blanco para la tabla */
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#escudos th, #escudos td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+#escudos th {
+  background-color: #e0e0e0; /* Color de fondo ligeramente grisáceo para los encabezados */
+}
+#escudos table {
+  /* Estilos existentes para la tabla */
+  opacity: 0.8; /* Nivel de transparencia inicial (0 es completamente transparente, 1 es opaco) */
+}
